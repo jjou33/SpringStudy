@@ -41,7 +41,7 @@
 		FROM
 			tb_board
 		WHERE
-			delete_yn = 'N'
+			delete_yn = 'Y'
 		AND
 			idx = #{idx}
 	</select>
